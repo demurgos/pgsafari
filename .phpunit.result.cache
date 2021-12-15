@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Pgrogress\\Test\\PgrogressTest::testFromJson":4,"Pgsafari\\Test\\SafariTest::testFromJson":4},"times":{"Pgrogress\\Test\\PgrogressTest::testFromJson":0.01,"Pgsafari\\Test\\SafariTest::testFromJson":0.012}}

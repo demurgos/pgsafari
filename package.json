@@ -1,0 +1,33 @@
+{
+  "name": "@pgrogress/monorepo",
+  "private": true,
+  "homepage": "https://github.com/demurgos/pgrogress",
+  "repository": {
+    "type": "git",
+    "url": "git://gitlab.com:eternal-twin/etwin.git"
+  },
+  "licenses": [
+    {
+      "type": "AGPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/AGPL-3.0-or-later.html"
+    }
+  ],
+  "engines": {
+    "node": ">=14.13.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "eslint": "^8.4.1",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "mocha": "^9.1.3",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.0-dev.20211211"
+  },
+  "workspaces": {
+    "packages": [
+      "node"
+    ]
+  },
+  "packageManager": "yarn@3.1.1"
+}
